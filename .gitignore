@@ -1,0 +1,22 @@
+# local config with machine paths (config.example.ini is the template)
+config.ini
+catalog_run.ini
+
+# outputs
+output/
+output_*/
+validation/output/
+*.log
+
+# data products (the PSF models in data/psf/ are part of the repository)
+*.fits
+!data/psf/jwst_psf/*.fits
+*.npz
+*.png
+*.pdf
+
+# python / jupyter
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,12 @@
+# Tested with Python 3.11 and these versions
+numpy>=2.3
+scipy>=1.16
+astropy>=7.1
+photutils>=2.2
+matplotlib>=3.9
+regions>=0.10
+reproject>=0.15
+scikit-image>=0.25
+dustmaps>=1.0.14
+dust_extinction>=1.6      # SED plots (muse_sed.py, [run] run_sed)
+pytest>=9.1               # tests/ only
